@@ -62,5 +62,5 @@ function exampleAdjacencyList () {
 }
 
 exampleMatrix();
-// exampleMappedObjects();
-// exampleAdjacencyList()
+exampleMappedObjects();
+exampleAdjacencyList()
