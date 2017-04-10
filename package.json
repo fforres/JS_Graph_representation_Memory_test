@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "inspect": "NODE_ENV=production node --inspect --debug-brk ./twitter_graph.js",
+    "profile": "NODE_ENV=production node --prof ./twitter_graph.js",
+    "start": "nodemon ./twitter_graph.js"
+  }
+}
