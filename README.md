@@ -6,6 +6,7 @@ Memory usage for different implementations of graph representation.
 
 Memory is displayed in KB
 
+### Adjacency List
 ```javascript
 {
   type: "ADJACENCY_LIST",
@@ -15,6 +16,8 @@ Memory is displayed in KB
 }
 ```
 
+
+### Matrix
 ```javascript
 {
   type: "MATRIX",
@@ -24,6 +27,7 @@ Memory is displayed in KB
 }
 ```
 
+### Mapped Objects
 ```javascript
 {
   type: "MAPPED_OBJECTS",
